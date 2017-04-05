@@ -3,6 +3,7 @@ package com.janita.mvc.controller;
 import com.janita.mvc.bean.Car;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Api(description = "car")
 @RequestMapping("/car")
 @ResponseBody
+@Controller
 public class CarController {
 
     @RequestMapping(value = "/find",method = RequestMethod.GET)
