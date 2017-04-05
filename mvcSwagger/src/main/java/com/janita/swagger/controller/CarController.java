@@ -1,7 +1,6 @@
 package com.janita.swagger.controller;
 
 import com.janita.swagger.bean.Car;
-import com.janita.swagger.bean.User;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;
