@@ -9,7 +9,7 @@ import java.io.Serializable;
  */
 @Data
 public class Car implements Serializable {
-    private String carId;
 
+    private String carId;
     private String name;
 }
