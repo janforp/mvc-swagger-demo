@@ -11,6 +11,4 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 
-    <context:component-scan base-package="com.janita.springmvc.swagger" />
-    <mvc:annotation-driven />
 </beans>
